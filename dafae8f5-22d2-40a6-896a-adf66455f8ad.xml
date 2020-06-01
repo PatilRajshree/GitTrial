@@ -17,7 +17,7 @@
         <processingThreads>1</processingThreads>
         <resourceIds class="linked-hash-map">
           <entry>
-            <string>Default Resource</string>
+            <string>Default Resource1</string>
             <string>[Default Resource]</string>
           </entry>
         </resourceIds>
