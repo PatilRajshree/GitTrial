@@ -3,7 +3,7 @@
   <nextMetaDataId>3</nextMetaDataId>
   <name>Channel 4_123</name>
   <description></description>
-  <revision>6</revision>
+  <revision>7</revision>
   <sourceConnector version="3.9.0">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>
@@ -17,7 +17,7 @@
         <processingThreads>1</processingThreads>
         <resourceIds class="linked-hash-map">
           <entry>
-            <string>Default Resource1</string>
+            <string>Default Resource</string>
             <string>[Default Resource]</string>
           </entry>
         </resourceIds>
@@ -40,8 +40,8 @@ fHx8fHx8fDE5OTkxMjI3MTQwOHx8fHx8fDAwMjM3Njg1Mw==</inboundTemplate>
         <serializationProperties class="com.mirth.connect.plugins.datatypes.hl7v2.HL7v2SerializationProperties" version="3.9.0">
           <handleRepetitions>true</handleRepetitions>
           <handleSubcomponents>true</handleSubcomponents>
-          <useStrictParser>false</useStrictParser>
-          <useStrictValidation>false</useStrictValidation>
+          <useStrictParser>true</useStrictParser>
+          <useStrictValidation>true</useStrictValidation>
           <stripNamespaces>true</stripNamespaces>
           <segmentDelimiter>\r</segmentDelimiter>
           <convertLineBreaks>true</convertLineBreaks>
@@ -589,7 +589,7 @@ return;</undeployScript>
     <metadata>
       <enabled>true</enabled>
       <lastModified>
-        <time>1590595610477</time>
+        <time>1591082186280</time>
         <timezone>Asia/Calcutta</timezone>
       </lastModified>
       <pruningSettings>
