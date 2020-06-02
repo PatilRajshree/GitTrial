@@ -1,9 +1,9 @@
 <channel version="3.9.0">
   <id>dafae8f5-22d2-40a6-896a-adf66455f8ad</id>
   <nextMetaDataId>3</nextMetaDataId>
-  <name>Channel 4_123</name>
+  <name>Channel 4</name>
   <description></description>
-  <revision>7</revision>
+  <revision>8</revision>
   <sourceConnector version="3.9.0">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>
@@ -40,8 +40,8 @@ fHx8fHx8fDE5OTkxMjI3MTQwOHx8fHx8fDAwMjM3Njg1Mw==</inboundTemplate>
         <serializationProperties class="com.mirth.connect.plugins.datatypes.hl7v2.HL7v2SerializationProperties" version="3.9.0">
           <handleRepetitions>true</handleRepetitions>
           <handleSubcomponents>true</handleSubcomponents>
-          <useStrictParser>true</useStrictParser>
-          <useStrictValidation>true</useStrictValidation>
+          <useStrictParser>false</useStrictParser>
+          <useStrictValidation>false</useStrictValidation>
           <stripNamespaces>true</stripNamespaces>
           <segmentDelimiter>\r</segmentDelimiter>
           <convertLineBreaks>true</convertLineBreaks>
@@ -589,7 +589,7 @@ return;</undeployScript>
     <metadata>
       <enabled>true</enabled>
       <lastModified>
-        <time>1591082186280</time>
+        <time>1591082241902</time>
         <timezone>Asia/Calcutta</timezone>
       </lastModified>
       <pruningSettings>
