@@ -3,7 +3,7 @@
   <nextMetaDataId>2</nextMetaDataId>
   <name>Channel 7</name>
   <description></description>
-  <revision>0</revision>
+  <revision>1</revision>
   <sourceConnector version="3.9.0">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>
@@ -32,7 +32,7 @@
         <serializationProperties class="com.mirth.connect.plugins.datatypes.hl7v2.HL7v2SerializationProperties" version="3.9.0">
           <handleRepetitions>true</handleRepetitions>
           <handleSubcomponents>true</handleSubcomponents>
-          <useStrictParser>false</useStrictParser>
+          <useStrictParser>true</useStrictParser>
           <useStrictValidation>false</useStrictValidation>
           <stripNamespaces>true</stripNamespaces>
           <segmentDelimiter>\r</segmentDelimiter>
@@ -367,7 +367,7 @@ return;</undeployScript>
     <metadata>
       <enabled>true</enabled>
       <lastModified>
-        <time>1591083986860</time>
+        <time>1591084892716</time>
         <timezone>Asia/Calcutta</timezone>
       </lastModified>
       <pruningSettings>
